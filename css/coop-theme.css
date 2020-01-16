@@ -1,0 +1,104 @@
+body {
+    font-family: 'neoteric';
+	/* background-color: #59596b; */
+	margin: 0;
+	padding: 0;
+	/* border: 1px yellow solid; */
+}
+
+html {
+	margin: 0;
+	padding: 0;
+	/* border: 2px green solid; */
+}
+
+.title {
+    margin: 0;
+    padding-top: 0.5em;
+    text-align: center;
+	font-size: 4vw;
+	background-color: #4dafff;
+	padding-bottom: 2vh;
+	/* background: url('../img/demo-2-bg.jpg') 100% 100% no-repeat; */
+}
+
+h1 {
+	font: red;
+}
+
+.chart {
+    margin: 0 auto;
+}
+
+#test {
+	font: red;
+}
+
+
+
+
+/*Canvas stuff*/
+/* html {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+    background-color: #59596b;
+	font-family: 'neoteric';
+	margin: 0;
+	width: 98vw;
+	padding: 0;
+	border: 1px yellow solid;
+}
+
+#particles-js {
+	height: 100%;
+	width: 100%;
+	position: fixed;
+} */
+
+#chart-container {
+	margin: 0 auto;
+	padding: 0;
+	z-index: 9999;
+	/* border: 1px red solid; */
+}
+
+div1 {
+	background-color: white;
+	border: 1px blue solid;
+}
+
+div2 {
+	background-color: #94b6ff;
+	border: 1px red solid;
+}
+
+/* #inner-container {
+	z-index: 0;
+	width: 75%;
+	margin: 0 auto;
+	position: relative;
+	border: 1px blue solid;
+	background-color: #59596be3;
+} */
+
+/* BACKGROUND */
+
+/* #bg {
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	z-index: -1;
+}
+
+#bg canvas {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+} */

@@ -1,0 +1,443 @@
+<html lang="en">
+
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Christy Yau</title>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU"
+	 crossorigin="anonymous">
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+	<script src="https://use.fontawesome.com/releases/v5.0.8/js/all.js"></script>
+	<link href="./css/style.css" rel="stylesheet">
+	<link href="./css/font-mfizz.css" rel="stylesheet">
+</head>
+
+<body>
+
+	<!-- Navigation -->
+	<nav class="navbar navbar-expand-md navbar-dark nav-bg-custom sticky-top">
+		<div class="container-fluid">
+			<a class="navbar-brand" href="./index.html">
+				<img src="./img/sybiri-colour.png" id="sybiri" />
+				<span id="name-logo" class="noselect">c.y.</span>
+			</a>
+			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive">
+				<span class="navbar-toggler-icon"></span>
+			</button>
+			<div class="collapse navbar-collapse" id="navbarResponsive">
+				<ul class="navbar-nav ml-auto">
+					<li class="nav-item active">
+						<a href="./" class="nav-link">Home</a>
+					</li>
+					<li class="nav-item">
+						<a href="#about" class="nav-link">About</a>
+					</li>
+					<li class="nav-item">
+						<a href="#projects" class="nav-link">Projects</a>
+					</li>
+					<li class="nav-item">
+						<a href="./files/christy_yau_resume.pdf" class="nav-link">CV</a>
+					</li>
+					<li class="nav-item">
+						<a href="https://github.com/amaranth-grain?tab=repositories" class="nav-link">
+							<i class="fab fa-github"></i>
+							<span class="icon-text">Github</span>
+						</a>
+					</li>
+					<li class="nav-item">
+						<a href="https://www.linkedin.com/in/christy-yau/" class="nav-link">
+							<i class="fab fa-linkedin"></i>
+							<span class="icon-text">LinkedIn</span>
+						</a>
+					</li>
+					<li class="nav-item">
+						<a href="https://www.youtube.com/watch?v=mg7LfYRJZL0&list=UUQHVvMFW_N9yFUhErEbBE8A&index=4" class="nav-link">
+							<i class="fab fa-youtube-square"></i>
+							<span class="icon-text">Tutorials</span>
+						</a>
+					</li>
+					<li class="nav-item">
+						<a href="https://aemail.com/ZXg" class="nav-link">
+							<i class="fa fa-envelope"></i>
+							<span class="icon-text">E-mail me</span>
+						</a>
+					</li>
+				</ul>
+			</div>
+		</div>
+	</nav>
+
+	<!--- Carousel	 -->
+	<div id="slides" class="carousel slide" data-ride="carousel">
+		<ul class="carousel-indicators">
+			<li data-target="#slides" data-slide-to="0" class="active"></li>
+			<li data-target="#slides" data-slide-to="1"></li>
+			<li data-target="#slides" data-slide-to="2"></li>
+		</ul>
+		<div class="carousel-inner text-center">
+			<div class="carousel-item active">
+				<img class="img-fluid" src="./img/christy05.png" />
+				<div class="carousel-caption">
+					<h1 class="display-2">Christy Yau</h1>
+					<h3>BCIT Computing Student</h3>
+					<a href="#about">
+						<button type="button" class="btn btn-light btn-lg">About</button>
+					</a>
+					&nbsp;
+					<a href="#projects">
+						<button type="button" class="btn btn-primary btn-lg">Projects</button>
+					</a>
+				</div>
+			</div>
+			<div class="carousel-item">
+				<img class="img-fluid" src="./img/christy03.png" alt="A foodie in her natural habitat." />
+				<div class="carousel-caption">
+					<h1 class="display-4">Bowen
+						<br/>Island</h1>
+					<h3>Aug 2016</h3>
+				</div>
+			</div>
+			<div class="carousel-item">
+				<img class="img-fluid" src="./img/blockchain.png" />
+				<div class="carousel-caption carousel-caption-bottom">
+					<h1 class="display-4">hackathon</h1>
+					<h3>July 2018</h3>
+				</div>
+			</div>
+		</div>
+
+		<a class="carousel-control-prev" href="#slides" data-slide="prev">
+			<span class="carousel-control-prev-icon"></span>
+		</a>
+		<a class="carousel-control-next" href="#slides" data-slide="next">
+			<span class="carousel-control-next-icon"></span>
+		</a>
+	</div>
+
+	<!--- Jumbotron -->
+	<div class="container-fluid">
+		<div class="row jumbotron">
+			<div class="col-10 offset-1" />
+			<!-- 
+				WORKS WITH LEARN MORE BUTTON
+				 <div class="col-xs-12 col-sm-12 col-md-9 col-lg-9 col-xl-10"> -->
+			<p class="lead text-justify">
+				I will begin my 8-month co-op term in January 2019, and I am expected to graduate with my diploma in Computer Systems Technology
+				in April 2020.
+			</p>
+
+		</div>
+		<!-- LEARN MORE BUTTON
+			<div class="col-xs-3 text-center col-sm-3 col-md-3 col-lg-3 col-xl-2">
+				<a href="#">
+					<button type="button" class="btn btn-outline-secondary btn-lg">
+						Learn More
+					</button>
+				</a>
+			</div>
+		-->
+	</div>
+	</div>
+
+
+	<!--- Welcome Section -->
+	<div class="container-fluid padding text-center">
+		<div class="row welcome">
+			<div class="col-12">
+				<h1 class="display-4">
+					Programming &amp; Language
+				</h1>
+			</div>
+			<hr/>
+			<div class="col-12 col-lg-8 offset-lg-2">
+				<p class="lead">
+					I love making sense of the lawlessness and chaos within natural human languages and computer languages both.
+				</p>
+				<p class="lead">
+					I live by clear writing, good documentation, and clean code.
+				</p>
+			</div>
+
+		</div>
+	</div>
+
+	<!--- About Me -->
+	<a name="about"></a>
+	<div class="container-fluid padding">
+		<div class="row">
+			<br/>
+			<br/>
+			<div class="col-sm-12 col-md-8 offset-md-2 col-lg-5 offset-lg-0">
+				<img class="img-fluid" id="about-pic" src="./img/christy01.jpg" />
+			</div>
+			<div class="col-sm-12 col-lg-7">
+
+				<h2>About Me</h2>
+				<p class="lead">
+					If I went to Hogwarts, I would be a Ravenclaw.
+				</p>
+				<p class="lead">
+					In high school, I took Calculus, Physics, and Chemistry 12 for fun even 
+					when I was planning on going into the arts.
+				</p>
+				<p class="lead">
+					After graduating, I became an ESL teacher because I love language 
+					and helping others. But over the years, I realised I wasn't approaching
+					teaching with the same enthusiasm as I did at first.
+					I knew I would miss my students, but I wanted to be constantly challenged by my work. 
+				</p>
+				<p class="lead">  
+					In the tech industry, devs have to constantly upgrade themselves.
+					When I first heard this, I knew it was a plus rather than a minus for me.
+					So far, I've found that developing solutions and identifying bugs can
+					be a mix of frustration and accomplishment, but nonetheless, 
+					I love the process.  When the aha! moment strikes, it makes it all worth it.
+				</p>
+				<table class="table-striped" id="about-table">
+					<tbody>
+						<tr>
+							<td>Patronus:</td>
+							<td>Goldendoodle</td>
+						</tr>
+						<tr>
+							<td>Alignment: </td>
+							<td>Chaotic Good</td>
+						</tr>
+						<tr>
+							<td>Class: </td>
+							<td>Druid</td>
+						</tr>
+						<tr>
+							<td>Favourite author: </td>
+							<td>Ann Leckie</td>
+						</tr>
+					</tbody>
+				</table>
+				<br/>
+				<!-- <a href="#" class="btn btn-primary">Learn More</a>-->
+			</div>
+		</div>
+	</div>
+
+	<!--- Programming Langauges -->
+	<div class="container-fluid padding">
+		<div class="row text-center padding">
+			<div class="col-12">
+				<h1>Skills</h1>
+			</div>
+			<div class="col-xs-6 col-sm-6 col-md-3">
+				<i class="icon-java"></i>
+				<h3>Java</h3>
+			</div>
+			<div class="col-xs-6 col-sm-6 col-md-3">
+				<i class="fab fa-js"></i>
+				<h3>JavaScript</h3>
+			</div>
+			<div class="col-xs-6 col-sm-6 col-md-3">
+				<i class="fab fa-python"></i>
+				<h3>Python</h3>
+			</div>
+			<div class="col-xs-6 col-sm-6 col-md-3">
+				<i class="fas fa-database"></i>
+				<h3>SQL</h3>
+			</div>
+			<div class="col-xs-6 col-sm-6 col-md-3">
+				<i class="fab fa-css3"></i>
+				<h3>CSS3</h3>
+			</div>
+			<div class="col-xs-6 col-sm-6 col-md-3">
+				<i class="fab fa-html5"></i>
+				<h3>HTML5</h3>
+			</div>
+			<div class="col-xs-6 col-sm-6 col-md-3">
+				<i class="fas fa-images"></i>
+				<h3>Photoshop</h3>
+			</div>
+			<div class="col-xs-6 col-sm-6 col-md-3">
+				<i class="fa fa-bold"></i>
+				<h3>Bootstrap</h3>
+			</div>
+
+		</div>
+		<hr class="my-4">
+	</div>
+
+
+	<hr class="my-4" />
+	<!--- Fixed background -->
+	<figure>
+		<div class="fixed-wrap">
+			<div id="fixed">
+				<img class="img-fluid" src="./img/christy06-sm.jpg" />
+			</div>
+		</div>
+	</figure>
+
+
+
+	<!--- Projects -->
+	<a name="projects"></a>
+	<div class="container-fluid padding">
+		<div class="row welcome text-center">
+			<div class="col-12">
+				<h1 class="display-4">Personal Projects</h1>
+			</div>
+			<hr class="my-4" />
+		</div>
+	</div>
+
+	<!--- Cards -->
+	<div class="container-fluid">
+		<div class="row padding">
+			<div class="col-sm-8 offset-sm-2 col-md-8 col-lg-4 offset-lg-0">
+				<div class="card">
+					<a href="https://www.youtube.com/watch?v=mg7LfYRJZL0&list=UUQHVvMFW_N9yFUhErEbBE8A&index=4">
+						<img class="card-img-top" src="./img/mascot.jpg" />
+					</a>
+					<div class="card-body">
+						<h4 class="card-title">Introduction to Java</h4>
+						<p class="card-text">
+							Creating a welcoming space for underrepresented minorities in the tech industry is one my pet causes.
+						</p>
+						<p class="card-text">
+							I want to diversify the voices in programming tutorials by developing a series for complete beginners.
+						</p>
+						<br/>
+						<a href="https://www.youtube.com/watch?v=mg7LfYRJZL0&list=UUQHVvMFW_N9yFUhErEbBE8A&index=4" class="btn btn-outline-secondary">YouTube</a>
+					</div>
+				</div>
+			</div>
+			<div class="col-sm-8 offset-sm-2 col-md-8 col-lg-4 offset-lg-0">
+				<div class="card">
+					<a href="https://github.com/usop7/MachoHacks2018">
+						<img class="card-img-top" src="./img/blockchain01.jpg" />
+					</a>
+					<div class="card-body">
+						<h4 class="card-title">Hackathon</h4>
+						<p class="card-text">
+							I dove headfirst into learning about blockchain for this 48-hour hackathon.
+						</p>
+						<p class="card-text">
+							Tasked with using blockchain in a new way (i.e. not
+							as crypto),
+							our team designed a system to use blockchain for 
+							authentication, while sensitive
+							data would remain in a database.
+						</p>
+						<a href="https://github.com/usop7/MachoHacks2018" class="btn btn-outline-secondary">GitHub</a>
+					</div>
+				</div>
+			</div>
+			<div class="col-sm-8 offset-sm-2 col-md-8 col-lg-4 offset-lg-0">
+				<div class="card">
+					<a href="https://github.com/amaranth-grain/python">
+						<img class="card-img-top" src="./img/python.png" />
+					</a>
+					<div class="card-body">
+						<h4 class="card-title">Learning Python</h4>
+						<p class="card-text">
+							I wanted to learn Python as I'm interested in both machine learning and data science.
+						</p>
+						<p class="card-text">
+							The project itself is quite rudimentary, but I learnt about SQL, hash tables, and templates (Jinja2).
+						</p>
+						<br/>
+						<br/>
+						<a href="https://github.com/amaranth-grain/python" class="btn btn-outline-secondary">GitHub</a>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<!-- Academic -->
+	<a name="academic"></a>
+	<div class="container-fluid">
+		<div class="row welcome text-center">
+			<div class="col-12">
+				<h1 class="display-4">Academic Term Project</h1>
+			</div>
+		</div>
+	</div>
+
+	<div class="container-fluid padding">
+		<div class="row padding">
+			<div class="col-sm-8 offset-sm-2 col-md-8 col-lg-6 offset-lg-3">
+				<div class="card">
+					<a href="https://opifex.ca/signup.php">
+						<img class="card-img-top" src="./img/splashworks-card.png" />
+					</a>
+					<div class="card-body">
+						<h4 class="card-title">Resource Management Web App Game</h4>
+						<p class="card-text">
+							I completed a 5-week term project in a team of 5 using Scrum/Agile methodology.
+						</p>
+						<p class="card-text">
+							We developed a resource management game with nine levels using 
+							a mobile-first approach. Levels are locked until the preceding
+							level has been completed. The game also features a star-rating 
+							system and an unlockable skins feature, chock full
+							of pop culture references!
+						</p>
+						<p class="card-text">
+							See if you can find the two Easter eggs hidden in our site!
+						</p>
+
+						<a href="https://opifex.ca/signup.php" class="btn btn-outline-secondary">Play</a>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<!--- Footer -->
+	<footer>
+		<div class="container-fluid padding">
+			<div class="row text-center">
+				<div class="col-md-4">
+					<hr class="light" />
+					<h5>Interests</h5>
+					<hr class="light" />
+					<p>Software Development</p>
+					<p>Data Analysis</p>
+					<p>Machine Learning</p>
+					<p>UI/UX Design</p>
+				</div>
+				<div class="col-md-4">
+					<hr class="light" />
+					<h5>Hobbies</h5>
+					<hr class="light" />
+					<p>Board Games</p>
+					<p>Gesture Drawing</p>
+					<p>Baking &amp; Cooking</p>
+					<p>Hiking Trails</p>
+				</div>
+				<div class="col-md-4">
+					<hr class="light" />
+					<h5>Favourites</h5>
+					<hr class="light" />
+					<p>Mystery Novels</p>
+					<p>CRPGs</p>
+					<p>Gaming Minis</p>
+					<p>London Fog</p>
+				</div>
+				<div class="col-12">
+					<hr class="light-full">
+					<h5>&copy; Christy Yau 2018</h5>
+				</div>
+			</div>
+		</div>
+	</footer>
+
+	<!--Back to the top button-->
+	<a href="#" class="back-to-top" style="display: inline;">
+		<i class="fa fa-arrow-circle-up"></i>
+	</a>
+
+	<script src="./js/top.js"></script>
+</body>
+
+</html>
